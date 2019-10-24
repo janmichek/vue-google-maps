@@ -10,6 +10,9 @@
 import MarkerClusterer from 'marker-clusterer-plus'
 import mapElementFactory from '../factories/map-element'
 
+import mapClusterImage from '~/assets/images/mapcluster.png'
+
+
 const props = {
   maxZoom: {
     type: Number,
@@ -78,6 +81,34 @@ const events = [
   'mouseout'
 ]
 
+var clusterStyles = [
+  {
+    height: 35,
+    width: 35,
+    url: mapClusterImage,
+  },
+  {
+    height: 35,
+    width: 35,
+    url: mapClusterImage,
+  },
+  {
+    height: 35,
+    width: 35,
+    url: mapClusterImage,
+  },
+  {
+    height: 35,
+    width: 35,
+    url: mapClusterImage,
+  },
+  {
+    height: 35,
+    width: 35,
+    url: mapClusterImage,
+  }
+];
+
 export default mapElementFactory({
   mappedProps: props,
   events,
@@ -104,6 +135,7 @@ export default mapElementFactory({
     const reinsertMarkers = () => {
       const oldMarkers = inst.getMarkers()
       inst.clearMarkers()
+      inst.styles_ = clusterStyles
       inst.addMarkers(oldMarkers)
     }
 
