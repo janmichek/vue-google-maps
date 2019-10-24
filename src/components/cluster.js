@@ -10,7 +10,7 @@
 import MarkerClusterer from 'marker-clusterer-plus'
 import mapElementFactory from '../factories/map-element'
 
-import mapClusterImage from '~/assets/images/mapcluster.png'
+import mapClusterImage from '../../assets/images/mapcluster.png'
 
 
 const props = {
