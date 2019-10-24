@@ -1,4 +1,5 @@
 import mapElementFactory from '../factories/map-element'
+import mapClusterImage from '../../assets/images/mapcluster.png'
 
 const props = {
   animation: {
@@ -72,6 +73,34 @@ const events = [
   'mouseout'
 ]
 
+const clusterStyles = [
+  {
+    height: 35,
+    width: 35,
+    url: mapClusterImage,
+  },
+  {
+    height: 35,
+    width: 35,
+    url: mapClusterImage,
+  },
+  {
+    height: 35,
+    width: 35,
+    url: mapClusterImage,
+  },
+  {
+    height: 35,
+    width: 35,
+    url: mapClusterImage,
+  },
+  {
+    height: 35,
+    width: 35,
+    url: mapClusterImage,
+  }
+];
+
 /**
  * @class Marker
  *
@@ -131,6 +160,7 @@ export default mapElementFactory({
   afterCreate (inst) {
     if (this.$clusterPromise) {
       this.$clusterPromise.then((co) => {
+        co.styles_ = clusterStyles
         co.addMarker(inst)
         this.$clusterObject = co
       })
