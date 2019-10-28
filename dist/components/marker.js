@@ -7,7 +7,7 @@ exports.default = void 0;
 
 var _mapElement = _interopRequireDefault(require("../factories/map-element"));
 
-var _mapcluster = _interopRequireDefault(require("~/assets/images/mapcluster.png"));
+var _markerCluster = _interopRequireDefault(require("~/assets/images/marker-cluster.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -72,23 +72,23 @@ var events = ['click', 'rightclick', 'dblclick', 'drag', 'dragstart', 'dragend',
 var clusterStyles = [{
   height: 35,
   width: 35,
-  url: _mapcluster.default
+  url: _markerCluster.default
 }, {
   height: 35,
   width: 35,
-  url: _mapcluster.default
+  url: _markerCluster.default
 }, {
   height: 35,
   width: 35,
-  url: _mapcluster.default
+  url: _markerCluster.default
 }, {
   height: 35,
   width: 35,
-  url: _mapcluster.default
+  url: _markerCluster.default
 }, {
   height: 35,
   width: 35,
-  url: _mapcluster.default
+  url: _markerCluster.default
 }];
 /**
  * @class Marker

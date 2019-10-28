@@ -1,5 +1,5 @@
 import mapElementFactory from '../factories/map-element'
-import mapClusterImage from '~/assets/images/mapcluster.png'
+import mapClusterImage from '~/assets/images/marker-cluster.png'
 
 const props = {
   animation: {
