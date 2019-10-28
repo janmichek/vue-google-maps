@@ -7,7 +7,7 @@ exports.default = void 0;
 
 var _mapElement = _interopRequireDefault(require("../factories/map-element"));
 
-var _mapcluster = _interopRequireDefault(require("../../assets/images/mapcluster.png"));
+var _mapcluster = _interopRequireDefault(require("~/assets/images/mapcluster.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
