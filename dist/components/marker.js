@@ -72,22 +72,27 @@ var events = ['click', 'rightclick', 'dblclick', 'drag', 'dragstart', 'dragend',
 var clusterStyles = [{
   height: 35,
   width: 35,
+  textSize: 14,
   url: _markerCluster.default
 }, {
   height: 35,
   width: 35,
+  textSize: 14,
   url: _markerCluster.default
 }, {
   height: 35,
   width: 35,
+  textSize: 14,
   url: _markerCluster.default
 }, {
   height: 35,
   width: 35,
+  textSize: 14,
   url: _markerCluster.default
 }, {
   height: 35,
   width: 35,
+  textSize: 14,
   url: _markerCluster.default
 }];
 /**
