@@ -1,5 +1,5 @@
 import mapElementFactory from '../factories/map-element'
-import mapClusterImage from '~/assets/images/marker-cluster.png'
+import markerClusterImage from '~/assets/images/marker-cluster.png'
 
 const props = {
   animation: {
@@ -77,27 +77,32 @@ const clusterStyles = [
   {
     height: 35,
     width: 35,
-    url: mapClusterImage,
+    textSize: 14,
+    url: markerClusterImage,
   },
   {
     height: 35,
     width: 35,
-    url: mapClusterImage,
+    textSize: 14,
+    url: markerClusterImage,
   },
   {
     height: 35,
     width: 35,
-    url: mapClusterImage,
+    textSize: 14,
+    url: markerClusterImage,
   },
   {
     height: 35,
     width: 35,
-    url: mapClusterImage,
+    textSize: 14,
+    url: markerClusterImage,
   },
   {
     height: 35,
     width: 35,
-    url: mapClusterImage,
+    textSize: 14,
+    url: markerClusterImage,
   }
 ];
 
